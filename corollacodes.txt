@@ -1,0 +1,28 @@
+This refers to whether or not the following codes are supported on my corolla
+For [01-20] (inclusive)
+10111110000111111011100000010001
+
+01-Status
+03-Fuel System Status
+04-Engine Load
+05-Coolant Temp
+06-Short Term Fuel Trim
+07-Long Term Fuel Trim
+0C-RPM
+0D-Speed
+0E-Timing advance
+0F-Intake Air temp
+10-Mean Air Flow
+11-Throttle Position
+13- unsupported
+14-O2 bank sensor 1 voltage
+15-O2 bank sensor 2 voltage
+1C-OBD Compliance standard
+20-PIDs [21-40]
+
+----actual output-----
+[obd] '0140: Supported PIDs [41-60]' is not supported
+PIDS 1 - 20
+10111110000111111011100000010001
+PIDS 21-40
+00000000000000000000000000000000
